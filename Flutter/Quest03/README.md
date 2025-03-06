@@ -44,7 +44,9 @@
 # 회고(참고 링크 및 코드 개선)
 ```
 # 리뷰어의 회고를 작성합니다.
+
 오창열
+
 1️오류 원인 분석이 매우 정확함
 Navigator.pop(context, true);로 반환했지만 FirstPage에서 반영되지 않은 문제를 정확히 인지
 Navigator.push().then((returnedValue) => setState(() { isCat = returnedValue; }))를 활용해 즉시 반영
@@ -64,6 +66,9 @@ Navigator.pop(context, true);에서 then()을 사용해 setState()를 적용한 
 디버깅 과정에 대한 기록 보강 가능
 예를 들어, print("Returned isCat value: $isCat") 같은 로그 출력을 활용해 상태 변화를 추적했는지?
 디버깅 과정에서 어떤 시도들이 실패했는지 간략히 정리하면 더 좋음
+
+
 윤순천
+
 앱 시뮬레이션 중에 배치, 정렬하는 방법으로 강력한 Center 를 알게 되었음. Center로 감싸면서 Child : 를 함께 선언해야 한다는 팁까지 설명해 주어서 다음 프로젝트에 도움이 될 것 같음.
 그 외에 아이콘 활용할 수 있는 사이트와 패키지 정보로 공유해 주어서 도움이 될 것 같음
