@@ -171,8 +171,9 @@
 
 ## 플러터_ 프로토타이핑 구현 
 
-이 프로젝트는 MVP(Minimum Viable Product) 모델을 목표로 했으나, 현재는 프로토타입 시각화에 중점을 둔 Flutter 파일로 구성되어 있습니다. 실제 기능 구현은 추후 개발 단계에서 진행될 예정입니다.
--[구현영상 - View raw 클릭 시 다운](https://github.com/haepada/AIFFEL_quest_cr/blob/main/Flutter/Quest04/prototype.mp4)
+이 프로젝트는 MVP(Minimum Viable Product) 모델을 목표로 했으나, 현재는 프로토타입 시각화에 중점을 둔 Flutter 파일로 구성되어 있습니다. 실제 기능 구현은 추후 개발 단계에서 진행될 예정입니다. 
+![image](https://github.com/user-attachments/assets/d9daad15-5570-4f66-8180-124da4fd1666)
+
 
 ## 개발 현황
 
