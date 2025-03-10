@@ -1,0 +1,126 @@
+name: conversation_temperature
+description: AI-powered chat analysis and improvement assistant app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI & Animation
+  cupertino_icons: ^1.0.5
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  lottie: ^2.3.2
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  animated_text_kit: ^4.2.2
+  flutter_slidable: ^3.0.0
+
+  # State Management
+  provider: ^6.0.5
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  get_it: ^7.6.0
+
+  # Data & Storage
+  shared_preferences: ^2.1.1
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Networking
+  dio: ^5.1.2
+  http: ^1.0.0
+  connectivity_plus: ^4.0.1
+
+  # File handling
+  file_selector: ^0.9.4
+  file_selector_android: ^0.5.0
+  file_selector_ios: ^0.5.2
+  file_selector_macos: ^0.9.3
+  file_selector_web: ^0.9.1
+  file_selector_windows: ^0.9.3
+  # file_picker 대신 file_selector 사용
+  image_picker: ^0.8.7+5
+  permission_handler: ^10.2.0
+  share_plus: ^7.0.2
+
+  # Text & Chat
+  flutter_chat_ui: ^1.6.9
+  flutter_chat_types: ^3.6.1
+
+  # Analytics & Monitoring
+  firebase_core: ^2.13.1
+  firebase_analytics: ^10.4.2
+  firebase_crashlytics: ^3.3.2
+
+  # ML & AI
+  # 호환성 문제로 tflite_flutter 일시 제거
+  # tflite_flutter: ^0.10.1
+
+  # Charts & Visualization
+  fl_chart: ^0.62.0
+  syncfusion_flutter_charts: ^21.2.4
+  syncfusion_flutter_gauges: ^21.2.4
+
+  # Utilities
+  intl: ^0.19.0
+  logger: ^1.3.0
+  uuid: ^3.0.7
+  url_launcher: ^6.1.11
+  package_info_plus: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  build_runner: ^2.4.4
+  hive_generator: ^2.0.0
+  mockito: ^5.4.0
+  flutter_native_splash: ^2.3.0
+  flutter_launcher_icons: ^0.13.1
+
+# Splash Screen Configuration
+flutter_native_splash:
+  color: "#1a1b3b"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+
+# App Icon Configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1a1b3b"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.ttf
+        - asset: assets/fonts/Pretendard-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Pretendard-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Pretendard-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Pretendard-Bold.ttf
+          weight: 700
