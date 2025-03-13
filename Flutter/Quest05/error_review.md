@@ -1,13 +1,13 @@
 # 된것
-  1. 플러터 앱 만들기
-     - ![image](https://github.com/user-attachments/assets/7a12acb0-4205-42ce-9c75-941cb4825e85)
+## 1. 플러터 앱 만들기
+  - ![image](https://github.com/user-attachments/assets/7a12acb0-4205-42ce-9c75-941cb4825e85)
   
   2. ngrok으로 예측모델 불러오고 포워딩하기/ 성공
      - ![image](https://github.com/user-attachments/assets/ec6451a8-be00-4a23-9b12-b3259a49db61)
      - ![image](https://github.com/user-attachments/assets/7a4b4567-edd7-49da-ab0a-6616bc5b92d4)
      - ![image](https://github.com/user-attachments/assets/cf83aa71-3d6c-4220-bd98-e5189d895490)
 
-# 안된것
+## 안된것
   - 웹 클릭시에 api 가 아닌 ngrok의 페이지가 통채로 호출이 되는 문제 발생
   - ![image](https://github.com/user-attachments/assets/c30eab6b-48c1-4243-8922-fb7bb50cc473)
 
