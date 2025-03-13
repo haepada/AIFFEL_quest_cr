@@ -1,7 +1,35 @@
 # 된것
-  2. ngrok으로 예측모델 불러오기/ 성공
-      ![image](https://github.com/user-attachments/assets/7a4b4567-edd7-49da-ab0a-6616bc5b92d4)
-      ![image](https://github.com/user-attachments/assets/cf83aa71-3d6c-4220-bd98-e5189d895490)
+  1. 플러터 앱 만들기
+     - ![image](https://github.com/user-attachments/assets/7a12acb0-4205-42ce-9c75-941cb4825e85)
+  
+  2. ngrok으로 예측모델 불러오고 포워딩하기/ 성공
+     - ![image](https://github.com/user-attachments/assets/ec6451a8-be00-4a23-9b12-b3259a49db61)
+     - ![image](https://github.com/user-attachments/assets/7a4b4567-edd7-49da-ab0a-6616bc5b92d4)
+     - ![image](https://github.com/user-attachments/assets/cf83aa71-3d6c-4220-bd98-e5189d895490)
 
 # 안된것
-  오류원인과 해석
+  - 웹 클릭시에 api 가 아닌 ngrok의 페이지가 통채로 호출이 되는 문제 발생
+  - ![image](https://github.com/user-attachments/assets/c30eab6b-48c1-4243-8922-fb7bb50cc473)
+
+# 회고 / 
+##승아
+- 시간이 너무 부족했다.
+- 모델이 불러는 와졌는데, api가 아닌 해당 ngrok의 웹페이지가 호출되어버렸고, 결과론적으로 실패함..
+- 시간이 좀 더 있다면 로컬에서 실행해보거나, 수정한 vgg16_prediction_model.py를 제대로 호출해봐야 할듯하다.
+
+##주호
+-로컬로 쓸때는 자신의 환경에 맞는(mac m2,m3 마다 다른줄 몰랐,,) 패키지를 설치해야함을 알게되었습니다 
+-로컬의 한계로 skikit-learn 모델 사용해보려 했으나 설치부터 문제가 생겨 진행이안되었습니다
+- 지속적인 오류문제로 라이브러리 설치부터 애를 먹었습니다 
+- 한번도 해본적 없는것을 너무 과감하게 시도하였네요 
+반성 더 공부할점
+- 좀 더 원리에 대해서 알고나서 활용하도록 좀 더 공부하도록 하겠습니다
+
+###순천
+하소연
+- 학습시간 7시간 + 야간자율학습시간 5시간 공부한 것을, 단 2시간만에 비슷한 결과물을 내야 하는 것은 너무 무리한 미션이지 않았나 싶음.
+- LMS 연결이 안 되는 것도 미션을 수행하는 데 큰 방해요소였음.
+배운점
+- 그럼에도 불구하고, 마냥 따라하기만 했던 12시간 공부 내용의 전반적인 흐름과 관계를 조금이나마 복습할 수 있었다는 측면에서 의미있는 2시간이었던 것 같음.
+다짐
+- 플러터 코딩과 모델
