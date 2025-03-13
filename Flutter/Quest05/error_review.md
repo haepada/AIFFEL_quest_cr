@@ -8,6 +8,7 @@
      - ![image](https://github.com/user-attachments/assets/cf83aa71-3d6c-4220-bd98-e5189d895490)
 
 ## 안된것
+
   - 웹 클릭시에 api 가 아닌 ngrok의 페이지가 통채로 호출이 되는 문제 발생
   - ![image](https://github.com/user-attachments/assets/c30eab6b-48c1-4243-8922-fb7bb50cc473)
 
