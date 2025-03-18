@@ -1,6 +1,19 @@
 
 # 온도톡(Ondo Talk) - AI 상담사 & 롤플레이 앱 개발 프로젝트
 
+```dart
+// 상담기능을 테스트 하고 싶으면 lib/core/service/gemini_counseling_service.dart의 12번째 줄에 있는 api를 제미나이2.0 api로 넣어주세요
+
+class GeminiCounselingService {
+  final String _apiKey = '제미나이API를 넣어주세요'; //이부분에 제미나이 2.0 api를 넣어주세요
+  final String _geminiApiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+  final bool _testMode = false;
+  
+  // 테스트 응답
+  final String _testResponse = '''안녕하세요. 상담사입니다. 어떻게 도와드릴까요?
+오늘 어떤 고민이 있으신가요? 편안하게 말씀해주세요.''';
+
+```
 ## 목차
 
 1. [기획 및 디자인](#1-기획-및-디자인)
