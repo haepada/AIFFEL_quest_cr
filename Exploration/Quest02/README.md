@@ -48,7 +48,7 @@
 
 ---
 <전승아>
-**✅ 배운 점 (What I Learned)**
+- **✅ 배운 점 (What I Learned)**
 
 1. **Seq2Seq 모델과 어텐션 메커니즘의 구조와 원리**  
    - 기본적인 인코더-디코더 구조를 익혔고, 어텐션을 통해 디코더가 입력 시퀀스의 중요한 부분에 집중할 수 있도록 돕는 방식을 이해함.
@@ -64,7 +64,7 @@
 
 ---
 
-**⚠️ 시행착오 (Challenges & Mistakes)**
+-  **⚠️ 시행착오 (Challenges & Mistakes)**
 
 
 1. **데이터 인덱스 불일치로 인한 비교 실패**
@@ -78,7 +78,7 @@
 - **모델별 전처리 방식은 달라야 한다는 점**을 명확히 체득하게 된 경험.
 
 
-**😔 아쉬운 점 (What Could Be Improved)**
+-  **😔 아쉬운 점 (What Could Be Improved)**
 
 1. **Beam Search 등의 디코딩 전략 실험 부족**  
    - 대부분 greedy decoding으로만 결과를 봤고, 다양한 디코딩 방식(beam, top-k, nucleus sampling)을 적용해보지 못한 점이 아쉬움.
