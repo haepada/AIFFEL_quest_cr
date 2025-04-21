@@ -121,6 +121,7 @@ TensorFlow SavedModel 형식으로 저장 후 TFLite로 변환하여 모바일 �
 ### 서비스 개요
 
 ![image](https://github.com/user-attachments/assets/6a8a3438-7425-43b9-93ed-e75031b51720)
+[클로드 아키텍쳐- 프로토타입](https://claude.site/artifacts/cab7439b-a291-48a8-8f42-84b45f82921a)
 
 본 서비스는  챗봇의 동문서답 특성을 게임화한 소셜 추리 게임입니다. 플레이어들은 챗봇의 엉뚱한 답변을 보고 원래 질문을 추측하는 과정에서 재미와 웃음을 경험합니다.
 
